@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>trantruong.oceanic-dark-theme</id>
+    <name>Oceanic Theme</name>
+    <vendor email="tranquangtruong1503@gmail.com" url="https://github.com/tengichohay">Tran Quang Truong</vendor>
+
+  <description><![CDATA[
+    <p>Material Oceanic Dark <i>Theme</i> and <i>color scheme</i> for IntelliJ, PHPStorm and other Jetbrains IDEs.</p>
+
+    To install:
+    <ul>
+      <li>Open Settings (Preferences) | Plugins and search for <b>Oceanic Dark Theme</b></li>
+      <li>Install the plugin</li>
+      <li>Click restart your IDE</li>
+      <li>Go to Settings (Preferences) | Appearance & Behavior | Appearance and select <b>Oceanic Theme</b> in the theme dropdown.</li>
+    </ul>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <idea-version since-build="203.*" until-build="241.*"/>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="826759b5-3737-4109-9da3-c134c6a8e512" path="/META-INF/oceanic_colorful.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

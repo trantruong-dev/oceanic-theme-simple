@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '1.17.3'
+}
+
+group = "truong.tran"
+version = "1.1.7"
+
+sourceCompatibility = 17
+
+repositories {
+    mavenCentral()
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version = "2024.1"
+    updateSinceUntilBuild = false
+}
+
+patchPluginXml {
+    changeNotes = """
+      <h3> Compatibility with IU-241 </h3>
+      """
+}
+
+publishPlugin {
+    token = System.getenv("oceanicDark_intellijPublishToken")
+}
