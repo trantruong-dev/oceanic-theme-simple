@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "truong.tran"
-version = "1.1.7"
+version = "1.1.9"
 
 sourceCompatibility = 17
 
@@ -20,6 +20,7 @@ intellij {
 
 patchPluginXml {
     changeNotes = """
+      <h3> Compatibility with IU-242 </h3>
       <h3> Compatibility with IU-241 </h3>
       """
 }
