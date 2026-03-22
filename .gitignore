@@ -11,3 +11,6 @@ build
 src/test/resources/
 
 publishToken
+
+.claude
+.intellijPlatform
